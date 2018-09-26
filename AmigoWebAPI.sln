@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmigoWebAPI", "AmigoWebAPI\AmigoWebAPI.csproj", "{ACBC3829-7DC3-4664-B674-D5473693A4D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentaion", "0 - Presentaion", "{82596BC3-E288-4512-B3D2-8AC467D56709}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Service", "1 - Service", "{C52E8A91-7351-497F-AC07-49A9E3F3AACA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{9094656D-DE55-4B7C-97E1-B5FD18D046D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{0807BBCA-4527-4946-9284-7641E87193DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{FF57BD41-F4E3-4994-9B89-9EDA8AA050E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\DomainModel.csproj", "{DCB834A9-F256-43F2-8892-B3EF0C36FE2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{E2FE94FD-CC37-41DE-A97A-36BB3087F6AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACBC3829-7DC3-4664-B674-D5473693A4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACBC3829-7DC3-4664-B674-D5473693A4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACBC3829-7DC3-4664-B674-D5473693A4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACBC3829-7DC3-4664-B674-D5473693A4D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB834A9-F256-43F2-8892-B3EF0C36FE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB834A9-F256-43F2-8892-B3EF0C36FE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB834A9-F256-43F2-8892-B3EF0C36FE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB834A9-F256-43F2-8892-B3EF0C36FE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2FE94FD-CC37-41DE-A97A-36BB3087F6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2FE94FD-CC37-41DE-A97A-36BB3087F6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2FE94FD-CC37-41DE-A97A-36BB3087F6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2FE94FD-CC37-41DE-A97A-36BB3087F6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACBC3829-7DC3-4664-B674-D5473693A4D4} = {C52E8A91-7351-497F-AC07-49A9E3F3AACA}
+		{DCB834A9-F256-43F2-8892-B3EF0C36FE2B} = {0807BBCA-4527-4946-9284-7641E87193DD}
+		{E2FE94FD-CC37-41DE-A97A-36BB3087F6AF} = {FF57BD41-F4E3-4994-9B89-9EDA8AA050E3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6887CB5-D99B-4617-8E56-8224495C4674}
+	EndGlobalSection
+EndGlobal
